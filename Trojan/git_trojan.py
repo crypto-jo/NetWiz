@@ -26,6 +26,15 @@ data_path = relative_path + "data/{0}/".format(trojan_id)
 trojan_modules = []
 configured = False
 task_queue = Queue()
+thumb = """
+╱╱┏╮
+╱╱┃┃
+▉━╯┗━╮
+▉┈┈┈┈┃
+▉╮┈┈┈┃
+╱╰━━━╯
+"""
+print(thumb)
 
 def connect_to_github():
     # Note: there is also an option to login via tokens (see docs for more infor)

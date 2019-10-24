@@ -64,13 +64,3 @@ extensions = [".php", ".pak", ".orig", ".inc"]
 for i in range(0, threads):
     t = threading.Thread(target=dir_bruter, args=(word_queue, extensions, ))
     t.start()
-    
-thumb = """
-╱╱┏╮
-╱╱┃┃
-▉━╯┗━╮
-▉┈┈┈┈┃
-▉╮┈┈┈┃
-╱╰━━━╯
-"""
-print(thumb)

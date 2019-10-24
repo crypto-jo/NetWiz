@@ -76,7 +76,7 @@ class BurpExtender(IBurpExtender, IContextMenuFactory):
         mangled = []
 
         for password in (word, word.capitalize()):
-            for suffix in suffixes
+            for suffix in suffixes:
                 mangled.append("%s%s" % (password, suffix))
         return mangled
 
